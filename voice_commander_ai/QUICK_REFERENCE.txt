@@ -1,0 +1,218 @@
+┌─────────────────────────────────────────────────────────────┐
+│  🤖 VOICE COMMANDER AI - QUICK REFERENCE CARD 🤖             │
+└─────────────────────────────────────────────────────────────┘
+
+📍 LOCATION:
+c:\Users\LENOVO\Desktop\python\voice_commander_ai\
+
+🚀 QUICK START:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 1: Install Dependencies
+  python setup.py
+
+Step 2: Test Installation
+  python test_components.py
+
+Step 3: Run Application
+  python main.py
+
+🎙️ VOICE COMMANDS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Time & Date:
+  "What time is it?"
+  "What is today?"
+
+Applications:
+  "Open notepad"
+  "Open calculator"  
+  "Open chrome"
+
+Search:
+  "Search for Python"
+  "Search for AI tutorials"
+
+Math:
+  "Calculate 5 + 3"
+  "Calculate 10 * 20"
+
+Other:
+  "Hello"           → Greeting
+  "Help"            → Show commands
+  "Stop" / "Bye"    → Exit program
+
+📁 IMPORTANT FILES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MAIN APPLICATION:
+  main.py               → Run this
+  config.py             → Edit settings
+  ai_brain.py           → Add custom commands
+
+DOCUMENTATION:
+  README.md             → Full guide
+  QUICKSTART.md         → 5-min start
+  INSTALLATION_GUIDE.md → Detailed setup
+
+SETUP:
+  setup.py              → Automated install
+  test_components.py    → Test everything
+  run.bat               → Windows launcher
+
+⚙️ CONFIGURATION (config.py):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Speech Speed:
+  TTS_RATE = 150        # Words per minute (50-300)
+  
+Volume:
+  TTS_VOLUME = 0.9      # 0.0 to 1.0
+
+Listening:
+  TIMEOUT = 10          # Seconds to wait
+  PHRASE_TIME_LIMIT = 15 # Max phrase length
+
+🔧 ADD CUSTOM COMMAND:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Edit ai_brain.py:
+
+1. Add function:
+   def my_command(self, command: str) -> str:
+       return "Your response"
+
+2. Add to dictionary in _build_command_dictionary():
+   'keyword': self.my_command,
+
+3. Say: "keyword" to trigger it
+
+🐛 COMMON ISSUES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Can't hear microphone?
+  → Check Windows Sound Settings
+  → Test microphone volume
+  → Restart application
+
+"Could not understand"?
+  → Speak clearer
+  → Get closer to microphone
+  → Reduce background noise
+
+No sound output?
+  → Check speakers volume
+  → Adjust TTS_VOLUME in config.py
+  → Test speakers with another app
+
+PyAudio install fails?
+  Windows:  pip install pipwin; pipwin install pyaudio
+  Mac:      brew install portaudio; pip install pyaudio
+  Linux:    sudo apt-get install portaudio19-dev; pip install pyaudio
+
+💻 COMMAND CHEAT SHEET:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Navigate to directory:
+  cd c:\Users\LENOVO\Desktop\python\voice_commander_ai
+
+Install dependencies:
+  python setup.py
+
+Test everything:
+  python test_components.py
+
+Run application:
+  python main.py
+
+Test single command:
+  python main.py  (then select option 2)
+
+Run tests:
+  python test_components.py
+
+Windows launcher:
+  run.bat (double-click)
+
+📱 MODES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When you run main.py, choose:
+
+1. Continuous Mode
+   - Keeps listening for commands
+   - Say "Stop" or "Bye" to exit
+   - Best for regular use
+
+2. Single Command Mode
+   - Listens for one command
+   - Processes and exits
+   - Good for testing
+
+3. Exit
+   - Close the application
+
+🌟 ADVANCED FEATURES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+See examples_and_extensions.py for:
+  • Custom commands with context
+  • Command logging and analytics
+  • Multi-language support
+  • Intent detection
+  • Advanced voice processing
+
+See api_integrations.py for:
+  • Weather API integration
+  • News headlines
+  • Stock prices
+  • Google Maps
+  • Wikipedia search
+
+📋 REQUIREMENTS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Software:
+  ✓ Python 3.7+
+  ✓ Microphone
+  ✓ Internet connection
+  ✓ Windows/Mac/Linux
+
+Python Packages:
+  ✓ SpeechRecognition
+  ✓ pyttsx3
+  ✓ PyAudio
+  ✓ requests (optional)
+
+📚 DOCUMENTATION:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Start Reading:
+  1. BUILD_SUMMARY.txt (this gives overview)
+  2. QUICKSTART.md (5-minute intro)
+  3. README.md (full documentation)
+  4. INSTALLATION_GUIDE.md (if issues)
+
+For Code:
+  1. examples_and_extensions.py
+  2. api_integrations.py
+  3. advanced_ai_brain.py
+
+🎯 WHAT TO DO NOW:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Open Command Prompt/PowerShell
+2. cd c:\Users\LENOVO\Desktop\python\voice_commander_ai
+3. python setup.py
+4. python test_components.py
+5. python main.py
+6. Say "Hello" to start!
+
+✅ YOU'RE READY!
+
+Questions? Check the documentation files!
+Happy voice commanding! 🎙️✨
+
+┌─────────────────────────────────────────────────────────────┐
+│  Version 1.0 | Built: November 25, 2025 | Status: READY ✅  │
+└─────────────────────────────────────────────────────────────┘
