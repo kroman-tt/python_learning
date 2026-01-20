@@ -6,4 +6,4 @@
 # print(type(b))
 name='kroman'
 b=int(name) #convert to int
-print(type(b)) #output: ValueError: cause it is alphabate so it cant be converted to int
+print(type(b)) #output: ValueError: cause it is alphabate so it can't be converted to int

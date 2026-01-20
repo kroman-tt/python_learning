@@ -1,4 +1,5 @@
-#password check garney task
+#password check garney task 
+# it is use to make password for frist time while registering or siningup
 
 password=(input("Enter a password:"))
 passwordlength=len(password)

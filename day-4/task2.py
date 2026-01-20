@@ -1,4 +1,4 @@
-#wirte a proogram to calculate the actual amount to be paid by deducting the discount using discount rate only if the amount is greater then 1000,
+#wirte a program to calculate the actual amount to be paid by deducting the discount using discount rate only if the amount is greater then 1000,
 # otherwise just print the output as "thank you for shoppinhg!"
 
 

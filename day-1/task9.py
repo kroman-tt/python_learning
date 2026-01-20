@@ -10,3 +10,9 @@ print("the difference of two numbers is:",diff)
 print("the product of two numbers is:",prod)
 print("The quotient of two numbers is:",quot)
 
+# easy way->
+
+print("The sum of two numbers is:",a+b)
+print("the difference of two numbers is:",a-b)
+print("the product of two numbers is:",a*b)
+print("The quotient of two numbers is:",a/b)
