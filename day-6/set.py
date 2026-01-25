@@ -40,7 +40,7 @@
 
 # #to remove the element from the set
 # set5.remove(6)
-# print("Set after removing element:", set5)  # Set after removing element: {1, 3, 6}
+# print("Set after removing element:", set5)  # Set after removing element: {1,2,3}
 
 # set9 = {1,2,3,4,5}
 # # set9.reomve(100)  # it will give error because 100 is not present in the set

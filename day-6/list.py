@@ -48,7 +48,7 @@
 # print(index2) 
 # to avoid error we can use try and except block
 # try:
-#     index2 = list5.index("java")
+#     index2 = list5.index("java")       #it is very useful to use for search type application
 #     print(index2)
 # except ValueError:
 #     print("Element not found in the list")

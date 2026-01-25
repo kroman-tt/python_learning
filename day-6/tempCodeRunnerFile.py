@@ -1,3 +1,5 @@
-set3 = {1,2,3,4,5}
-print(set3) 
-print(type(set3)) 
+
+concatenation of tuple
+tuple_a = (1,2,3)
+tuple_b = (4,5,6)
+print(tuple_a + tuple_b)
