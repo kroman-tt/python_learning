@@ -1,13 +1,10 @@
-#default aruguments 
+# # default aruguments 
 # def func1(country="Nepal"):  #default arugument
 #     print(f"i am livilg in {country}")
 
 
-
 # func1()
-# # func1()
 # func1("USA")
-
 
 
 

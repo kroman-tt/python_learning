@@ -10,7 +10,6 @@ def pass_fail():
 
 
 
-
 def main():
     if score >=90:
         print("You got A+ grade")
@@ -25,12 +24,4 @@ def main():
 
 pass_fail()
 main()
-
-
-
-
-
-
-
-
 

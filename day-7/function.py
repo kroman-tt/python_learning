@@ -39,8 +39,6 @@
 
 
 
-
-
 #return statement
 
 # def sum_num(a,b):

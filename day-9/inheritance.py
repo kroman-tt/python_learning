@@ -1,7 +1,5 @@
 # #inheritance
 
-
-
 # class parent:
 #     hair_color = "golden brown"
 
@@ -15,7 +13,7 @@
 #-------------------------------------------------------------------------------------------------------------
 
 class person:
-    def __init__(self,name,age):
+    def __init__(self,name,age):    # method to initialize
         self.name = name
         self.age = age
     def info(self):
@@ -24,7 +22,7 @@ class person:
 
 class student(person):
     def __init__(self, name, age, roll):
-        super().__init__(name,age)
+        super().__init__(name,age)       # to call parent class init method
         self.roll=roll
 
     def student_info(self):
@@ -41,16 +39,8 @@ class teacher(person):
 s1=student("ram",19,"34")
 s1.student_info()        
 s1.info()
-
+print("\n")
 t1 = teacher("kroman",20,"science")
 t1.teach()
 t1.info()
-
-
-
-
-
-
-
-
 
