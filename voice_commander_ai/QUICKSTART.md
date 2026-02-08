@@ -50,7 +50,7 @@ Say these voice commands after starting the app:
 - "Open notepad" → Launches Notepad
 - "Search for Python" → Opens Google search
 - "Calculate 2 + 2" → Solves math
-- "Hello" → Gets a greeting
+- "Hello" or "Hey bro" → Gets a greeting
 - "Help" → Shows all commands
 - "Bye" → Exits the program
 
