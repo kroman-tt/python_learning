@@ -87,7 +87,7 @@ python main.py
 | **Open App** | "Open notepad", "Launch chrome" | Opens applications |
 | **Search** | "Search for Python tutorials" | Opens Google search |
 | **Calculate** | "Calculate 10 + 5" | Performs math |
-| **Greet** | "Hello", "Hi" | Responds with greeting |
+| **Greet** | "Hello", "Hi", "Hey bro" | Responds with greeting |
 | **Help** | "Help", "What can you do?" | Shows available commands |
 | **Exit** | "Stop", "Bye", "Goodbye" | Closes the application |
 

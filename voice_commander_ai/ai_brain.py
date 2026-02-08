@@ -30,6 +30,7 @@ class AIBrain:
             'search': self.search_web,
             'calculate': self.simple_calculate,
             'hello': self.greet,
+            'hey bro': self.greet,
             'help': self.show_help,
             'bye': self.goodbye,
         }
@@ -134,7 +135,7 @@ class AIBrain:
         - 'open [app name]' - Open applications (notepad, calculator, chrome, etc.)
         - 'search for [query]' - Search on Google
         - 'calculate [expression]' - Simple math calculation
-        - 'hello' - Get a greeting
+        - 'hello' or 'hey bro' - Get a greeting
         - 'help' - Show this help message
         - 'bye' - Exit the program
         """

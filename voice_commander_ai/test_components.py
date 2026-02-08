@@ -95,6 +95,7 @@ def test_ai_brain():
             "what time is it",
             "what is today",
             "say hello",
+            "hey bro",
             "help",
         ]
         
